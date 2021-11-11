@@ -1,0 +1,29 @@
+data:
+raw input/un organized plain input.
+information:
+info is a structured/organized/ information
+database:
+database is collection of related info which is organized in a such a manner so we can retirive and perfom operations effecintely.
+database management system:(mysql)
+dbma is a software which is use to create manage and perform acton on database.
+sql:
+sql is stands for structured query language which is a standrade language used to communicate with rdbms
+Needs of dbms:
+->makes easy to handle huge data
+->import/export easy
+->security
+user---->  dbms
+         |  database
+         |   
+         |
+         |
+under dbms we can create multible databases
+when  we need some info first we contact with the databasemangamnet system then database interact with the database the it process and send info through sql.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1:DATABASES
+     -relational databse(data form of tables)
+     -non relational databse(dat form of tree)
+2:database mangmnet system
+    -sql
+    -nosql
+

@@ -26,4 +26,99 @@ when  we need some info first we contact with the databasemangamnet system then 
 2:database mangmnet system
     -sql
     -nosql
+    mysql is based on t he sql
+    mongodb is based on nosql;
+    
+ sql:
+ structured query language. sql databasess are called relational databases.
+ sql databases are table_based databases;
+ sql databases are vertivally scalable
+ due to over head of data the db may crash
+ ORACLE,MYSQL,MS SERVER,POSTEGRESQL
+ ------------------------------------------------
+ NOSQL;
+ no sql (bot only sql)
+ is ais anin relational databse
+ no sql databsees are document based key value pair
+ no sql are horuizentally scalable
+ no crash
+ mongodb,redis,casnadra
+ ---------------------
+ relational databses uses sql
+-----------------------------------------------
+data types in mysql
+there are therre types of datatype sin mysql;
+1.NUMERIC
+2:string
+3:date&time
+----------------
+numeric
+int,double,float,bool
+string:
+char 
+varchar
+text
+enum
+datae and time:
+date
+datetime
+time
+------------------------------------------------------
+mysql connection types:
+we can connect to the databases using three approches:
+1:command line client
+2:mysql workbench
+3:
+phop script
+----------------------------------------
+CREATING DATABASES:
+CREATE DATABASE database_name;
+show databases;
+use database_name;
+show databases like"%type"
+copy:
+create database databasetocopy_copy
+---------------------
+mysqltable:
+a tabel is use to organize the data in the form of rows and columnsi sstores and represet the data in astructural form;
+create table table_name(col1 defination,col2 defination,....colunmn);
+eg:create table student_marks(id int,name varchar(20),class varchar(20),mobile varchar(20);
+show tables;
+desc table_name;or select columns from tabel
+deltet table:
+drop table table_name;(data and structures deleted)
+truncate table_name(only data)
+delte to delte rows based on condition(where, like)
+select col1,colm2 from table_name;
+selct distinct colum from table;
+insert into table values(1,2,3,40,(hdsnjnd,,idssn,)
+------------------------
+null vs not null
+when we not inserting any value it stores null values 
+to avoid placing null we use not null wit thw colum declarition.
+create table info(id int not null,name varchar(20); 
+insert into info(id int not null default 0,name varchar(20) 
+-----------------------------------------
+alter:
+alter table is use when we need to manipulate the fielss, records or tabkle name;
+it can be uase with add, drop, modiy
+alter to add the colum to the xxisting table:
+alter table table_name add colum_name defination
+alyer table tablename add c1,add  c2;
+   alter table table name drop col1,drop colm 2;
+   modify:
+   use to modify the column defination'
+   alter table table name modify column_name defination;
+   rename:
+   alter table tablename change columname new_columna def;
+   alter tabel tabel rename to ne_table namel;
+   shoe tables from datbase_name;
+   
+   
+   
+   
+   -----------------------------
+
+----------------------------
+
 
